@@ -1,0 +1,26 @@
+# Arquivos de configuração local
+.git
+.gitignore
+.env
+Dockerfile
+.dockerignore
+
+# Diretórios de build e dependências locais
+target/          # Para Maven
+build/           # Para Gradle
+.mvn/            # Configurações locais do Maven
+.gradle/         # Configurações locais do Gradle
+
+# Arquivos de IDE
+.idea/           # IntelliJ IDEA
+*.iml            # IntelliJ IDEA
+.vscode/         # Visual Studio Code
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+temp/
+
+# Dependências locais (se baixadas manualmente)
+node_modules/    # Caso tenha front-end no mesmo repo
+*.jar            # JARs avulsos fora do build
